@@ -1,0 +1,43 @@
+.input {
+  float: left;
+  width: 24vw;
+  padding: 20px;
+}
+.output {
+  //float: right;
+  width: 75vw;
+  //padding: 30px;
+  position:absolute;
+  left: 24vw;;
+  top: 20px;
+}
+
+.radio {
+  float: left;
+}
+
+.radio+.radio, .checkbox+.checkbox {
+  margin-top: 10px;
+}
+
+.radio label, .checkbox label {
+  padding-right: 10px;
+}
+#log {
+  display:none;
+}
+
+.shiny-output-error {
+  height:0px;
+}
+
+.wPanel {
+  //width: 20vw;
+  min-height: 10px;
+  padding: 10px 15px 10px 15px;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
